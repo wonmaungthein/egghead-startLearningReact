@@ -5,6 +5,7 @@ import ChildToParent from "./Components/ChildToParent";
 import AccessNestedData from "./Components/AccessNestedData";
 import SythenticEvent from "./Components/SythenticEvent";
 import Custom from "./Components/Custom";
+import Message from "./Components/Message";
 
 class App extends React.Component {
   render() {
@@ -25,6 +26,10 @@ class App extends React.Component {
         </div>
         <div>
           <SythenticEvent />
+        </div>
+
+        <div>
+          <Message Text="We have some text here now" />
         </div>
       </div>
     );
